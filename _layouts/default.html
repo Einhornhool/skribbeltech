@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/styles.css"/>
+</head>
+<body>
+    <header>
+        <div class="headerbild">
+            <img class="logo-head" src="assets/logo.png" alt="skribbeltech-logo">
+        </div>
+
+        <div class="menu-container">
+                <nav class="menu">
+                    <a class="men-el" href="/">Home</a>
+                    <a class="men-el" href="/themen/">Themen</a>
+                    <a class="men-el" href="/about/">About</a>
+                </nav>
+        </div>    
+    </header>
+    
+    <section>
+        {{ content }}
+    </section>
+
+    <footer>
+        <div class="foot foot-one"></div>
+        <div class="foot foot-two">&copy; Lena Boeckmann</div>
+        
+    </footer>
+
+</body>
+</html>
