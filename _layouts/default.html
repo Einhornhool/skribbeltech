@@ -5,29 +5,31 @@
     <title>{{ site.title }}</title>
     <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/styles.css"/>
 </head>
-<body>
+<body class="site">
     <header>
         <div class="headerbild">
-            <a class="logo-head" href="{{ site.baseurl }}/"><img src="assets/logo.png"></a>
+            <a class="logo-head" href="{{ site.baseurl }}/"><img src="/assets/logo.png"></a>
         </div>
-        
+
         <div class="menu-container">
                 <nav class="menu">
                     <a class="men-el" href="/">Home</a>
-                    <a class="men-el" href="/themen/">Themen</a>
+                    <!--<a class="men-el" href="/themen/">Themen</a>-->
                     <a class="men-el" href="/about/">About</a>
                 </nav>
         </div>    
     </header>
     
-    <section>
+    <section class="site-content">
         {{ content }}
     </section>
 
     <footer>
-        <div class="foot foot-one"></div>
-        <div class="foot foot-two">&copy; Lena Boeckmann</div>
-        
+        <div class="foot">
+            <p>Find me on</p><br>
+            <a class="social" href="https://github.com/Einhornhool"><img class="sm-logo" src="/assets/github-logo.png">Github</a>
+            <a class="social" href="#"><img class="sm-logo" src="/assets/twitter-logo.png">Twitter</a>
+        </div>
     </footer>
 
 </body>

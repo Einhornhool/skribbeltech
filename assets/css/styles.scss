@@ -5,9 +5,21 @@ $dunkelblau: #002646;
 $grau: #BFC0C0;
 $orange: #FF805F;
 $graublau: #4F5D75;
+$gruen: #6dbda5;
 
+/*Default*/
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.site {
+    display:flex;
+    min-height: 100vh;
+    flex-direction:column;
+}
+
+.site-content {
+    flex: 1;
 }
 
 a {
@@ -28,7 +40,7 @@ a {
 
 .logo-head {
     display: flex;
-    width: 40%; 
+    width: 30%; 
 }
 
 .menu {
@@ -67,17 +79,59 @@ section {
     text-align: center;
 }
 
-footer {
+.sm-logo {
+    width: 25px;
+    margin-right: 10px;
+}
+
+a.social {
+    display:flex;
+    align-items: center;
+    color: white;
+    margin: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a.social:hover {
+    color: $grau;
+}
+
+a.social:active {
+    color: $grau;
+}
+
+.footer {
     display: flex;
-    justify-content: space-between;
+    align-self: flex-end;
 }
 
 .foot {
-    border: 1px solid;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $orange;
     height: 200px;
-    flex: 1;
+    color: white;
+}
+
+/* Pages */
+.page {
+    width: 500px;
+}
+
+/* Posts */
+
+.post-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .comic-seite {
-    width: 700px;
+    display: flex;
+    border: solid 2px;
+    width: 500px;
+    margin: 5px;
 }

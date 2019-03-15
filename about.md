@@ -4,15 +4,15 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+### Willkommen bei SkribbelTech!
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+## Was soll das alles?
+SkribbelTech ist dazu da, Themen aus der Informatik möglichst einfach und verständlich zu erklären und dabei Spaß zu machen.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## Wer macht das?
+Ich bin eine Grafikdesignerin und Hobby-Künstlerin, die seit 2018 Informatik in Hamburg studiert und ihr Wissen gern weitergeben möchte. Außerdem hilft mir das Aufarbeiten der Themen, sie selber besser zu verstehen.
 
+## Darf man das teilen?
+Absolut! Ich bin großer Fan von Open Source und freien Informationen im Internet. Deshalb dürft ihr damit alles machen, außer Geld verdienen. 
+Ich erwarte allerdings, als Urheberin erwähnt zu werden.
 
-[jekyll-organization]: https://github.com/jekyll
