@@ -10,10 +10,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-section,footer {
-    border: 1px solid;
-}
-
 a {
     text-decoration: none;
 }
@@ -21,6 +17,7 @@ a {
 .headerbild {
     display: flex;
     justify-content: center;
+
 }
 
 .menu-container {
@@ -53,6 +50,16 @@ a.men-el:active {
     color: $orange;
 }
 
+.index-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.vorschaukachel {
+    display: flex;    
+    width: 200px;
+    margin: 5px;
+}
+
 section {
     display: flex;
     justify-content: center;
@@ -69,4 +76,8 @@ footer {
     border: 1px solid;
     height: 200px;
     flex: 1;
+}
+
+.comic-seite {
+    width: 700px;
 }
