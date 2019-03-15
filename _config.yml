@@ -25,6 +25,7 @@ twitter_username:
 github_username:  Einhornhool
 
 # Build settings
+permalink: pretty
 markdown: kramdown
 theme: minima
 plugins:
