@@ -133,6 +133,7 @@ a.social:active {
 }
 
 .comic-seite {
+    display: flex;
     flex-basis: 0;
     width:500px;
     height: 100%;
@@ -141,6 +142,7 @@ a.social:active {
 
 @media only screen and (max-width: 600px){
     .comic-seite {
+        display: flex;
         flex-basis: 0;
         width: 350px;
         height: 100%;
