@@ -135,6 +135,7 @@ a.social:active {
 .comic-seite {
     display: flex;
     width: 500px;
+    height: auto;
     margin: 5px;
 }
 
@@ -142,5 +143,6 @@ a.social:active {
     .comic-seite {
         display: flex;
         width: 350px;
+        height: auto;
     }
 }
