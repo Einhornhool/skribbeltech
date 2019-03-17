@@ -129,12 +129,12 @@ a.social:active {
 
 .post-images {
     display: flex;
-    flex-direction: column;
     justify-content: center;
 }
 
 .comic-seite {
     display: flex;
-    width: 500px;
+    width: 40%;
+    min-width: 350px;
     margin: 5px;
 }
