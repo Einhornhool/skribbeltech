@@ -133,18 +133,13 @@ a.social:active {
 }
 
 .comic-seite {
-    display: flex;
-    flex-basis: 0;
-    width: 700px;
-    height: 100px;
+    width: 40%;
+    min-width: 350px;
     margin: 5px;
 }
 
 @media only screen and (max-width: 600px){
     .comic-seite {
-        display: flex;
-        flex-basis: 0;
         width: 350px;
-        height: 100px;
     }
 }
