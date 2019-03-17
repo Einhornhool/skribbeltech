@@ -10,7 +10,8 @@ $gruen: #6dbda5;
 /*Default*/
 body {
     font-family: Arial, Helvetica, sans-serif;
-    -webkit-text-size-adjust: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .site {
