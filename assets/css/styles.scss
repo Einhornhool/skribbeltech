@@ -10,8 +10,6 @@ $gruen: #6dbda5;
 /*Default*/
 body {
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
 }
 
 .site {
@@ -70,8 +68,9 @@ a.men-el:active {
     flex-wrap: wrap;
 }
 .vorschaukachel {
-    display: flex;    
-    width: 200px;
+    display: flex;  
+    width:40%;  
+    min-width: 200px;
     margin: 5px;
 }
 
