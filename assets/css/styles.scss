@@ -70,7 +70,8 @@ a.men-el:active {
 }
 .vorschaukachel {
     display: flex;    
-    width: 200px;
+    width: 40%;
+    min-width: 200px;
     margin: 5px;
 }
 
@@ -135,6 +136,7 @@ a.social:active {
 
 .comic-seite {
     display: flex;
-    width: 500px;
+    width: 20%;
+    min-width: 400px;
     margin: 5px;
 }
