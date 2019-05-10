@@ -136,6 +136,10 @@ a.social:active {
     margin: 5px;
 }
 
+.posttext {
+    display:flex;
+}
+
 @media only screen and (max-width: 600px){
     .comic-seite {
         width: 350px;
