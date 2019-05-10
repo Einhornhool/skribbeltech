@@ -9,6 +9,6 @@ categories: computer science basics bits bytes
 
 <div class="post-images">
 
-    <img class="comic-seite" alt="Bits & Bytes Comic" src="assets/bits-bytes.jpg">
+    <img class="comic-seite" alt="Bits & Bytes Comic" src="assets/comics/bits-bytes.jpg">
 
 </div>
