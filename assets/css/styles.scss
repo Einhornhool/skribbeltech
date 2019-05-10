@@ -132,6 +132,7 @@ a.social:active {
 /* Posts */
 .comic-seite {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     width: 40%;
     min-width: 350px;
