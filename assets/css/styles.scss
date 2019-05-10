@@ -19,6 +19,8 @@ body {
 }
 
 .site-content {
+    display: flex;
+    align-items: center;
     flex: 1;
 }
 
@@ -132,7 +134,6 @@ a.social:active {
 /* Posts */
 .comic-seite {
     display: flex;
-    align-items: center;
     flex-direction: column;
     width: 40%;
     min-width: 350px;
