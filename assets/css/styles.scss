@@ -26,6 +26,10 @@ a {
     text-decoration: none;
 }
 
+a.postlink {
+    color: $orange;
+}
+
 .logolink {
     display: flex;
     justify-content: center;
