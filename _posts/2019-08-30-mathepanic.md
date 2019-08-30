@@ -7,7 +7,7 @@ preview: assets/vorschaukacheln/mathe-vk.jpg
 categories: mathe basics miscellaneous lernen
 ---
 
-<div class="post-images">
+<div class="post-site">
 
     <img class="comic-seite" alt="Mathepanik" src="assets/comics/mathelove.jpg">
 
